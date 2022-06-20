@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MartinTello/static/css/main.266a7a23.css",
+    "main.js": "/MartinTello/static/js/main.943c263c.js",
+    "static/media/test1.jpg": "/MartinTello/static/media/test1.ff26c6f202ee4aea4dc3.jpg",
+    "static/media/test3.jpg": "/MartinTello/static/media/test3.63e4e4effa69c12ef917.jpg",
+    "static/media/test2.jpg": "/MartinTello/static/media/test2.ababa12f75eef79d77c6.jpg",
+    "static/media/me.png": "/MartinTello/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me-about.jpg": "/MartinTello/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/TelloParionaMartin.pdf": "/MartinTello/static/media/TelloParionaMartin.f9d888dc32af1d933bcb.pdf",
+    "index.html": "/MartinTello/index.html",
+    "main.266a7a23.css.map": "/MartinTello/static/css/main.266a7a23.css.map",
+    "main.943c263c.js.map": "/MartinTello/static/js/main.943c263c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.266a7a23.css",
+    "static/js/main.943c263c.js"
+  ]
+}
