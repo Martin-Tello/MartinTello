@@ -1,0 +1,191 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.about_me {
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+    position: relative;
+    left: 90px;
+}
+.about_me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    
+    transition: var(--transition); 
+}
+.about_me-image:hover {
+    transform: rotate(0);
+}
+
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    
+    
+
+}
+.about_card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+.about_card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.about_icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;   
+}
+.about_card h5 {
+    font-size: 0.95rem;
+}
+
+.about_card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.about_content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);  
+   
+}
+.about_content {
+    position: relative;
+    right: 80px;
+}
+
+a {
+    color: var(--color-bg);
+    /* background-color: var(--color-) */
+}
+.test {
+    display: block;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.test-move a {
+    color: var(--color-bg);
+        background-color: rgb(16, 136, 192);
+}
+
+
+
+
+/* ============  Media queries ( medium devices) ================*/
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        height: 80vh;
+        
+        padding-top: 9rem;
+        overflow: hidden;
+    }
+    .test {
+        position: relative;
+        text-align: center;
+        bottom: -105px;
+    }
+    article {
+        height: 80%;
+    }
+    .about_me {
+        width: 45%;
+        margin: 2rem auto 4rem;
+        position: relative;
+        left: -9px;
+        margin-top: -140px;
+    }
+    
+    .about_content p {
+        margin: 1rem 0 1.5rem;
+        position: relative;
+        
+    }
+    .about_cards {
+        position: relative;
+        left: 85px;
+        gap: 1.5rem;
+        margin-top: -11px;
+    }
+    .test-move {
+        position: relative;
+        left: 100px;
+        padding-top: 0;
+    }
+    
+}
+/*iphone 12pro*/
+@media screen and (max-width: 600px) {
+    .about_container{
+        height: 169vh;
+         padding-top: 18rem;
+        margin-top: -160px;
+    }
+    .about_me {
+        position: relative;
+        width: 45%;
+        margin: 0 auto 3rem;
+        top: -180px;
+    }
+    .about_cards {
+        position: relative;
+        grid-template-columns: 0.5fr 0.5fr;
+        gap: 1rem;
+        top: -200px;
+        padding: 20px;
+        line-height: 15px;
+        padding-right: 20px;
+        width: 80%;
+    }
+    .about_content {
+        text-align: center;
+    }
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+    .test {
+        position: relative;
+        top: 9px;
+    }
+    .test-move{
+        position: relative;
+        top: -280px;
+    }
+    .test-move a {
+        position: relative;
+        color: var(--color-bg);
+        background-color: rgb(16, 136, 192);
+        
+    }
+    .especifico {
+        position: absolute;
+        left: 60px;
+        bottom: -40px;
+    }
+    .test-move p {
+        width: 90%;
+        height: 100%;
+        padding: 3rem;
+        margin: 1rem;
+        text-align: left;
+        justify-content: right;
+    }
+}
